@@ -16,9 +16,9 @@ package homework.homework_04;
             int sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
             int average = sum / 10;
 
-            System.out.println("Среднее арифметическое: " + average);
+            System.out.println("arithmetic mean: " + average);
 
             int remainder = sum % 10;
-            System.out.println("Программа отбросила в дробной части: " + remainder);
+            System.out.println("program dropped in the middle part " + remainder);
         }
     }
