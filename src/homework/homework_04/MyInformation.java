@@ -4,14 +4,14 @@ public class MyInformation {
 
 public static void main(String[] args) {
 
-    String имя = "Анастасия";
-    int возраст = 35;
-    String страна = "Германия";
+    String name = "Анастасия";
+    int age = 35;
+    String country = "Германия";
 
 
-    System.out.println("Меня зовут " + имя);
-    System.out.println("Мне " + возраст + " лет");
-    System.out.println("Я из " + страна);
+    System.out.println("Меня зовут " + name);
+    System.out.println("Мне " + age + " лет");
+    System.out.println("Я из " + country);
 
 }
 }
