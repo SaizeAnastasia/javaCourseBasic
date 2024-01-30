@@ -8,11 +8,6 @@ package homework.homework_08;
 //- номер в каталоге
 //- параметр который показывает книга в хранилище или на руках
 
-//Написать отдельные сервисные методы которые:
-//- создают новую книгу только с автором и названием
-//- создают новую книгу с использованием всех параметров
-//- редактирует книгу добавляя: номер каталога, количество страниц и где книга находится
-//- который вывод подробно информацию о книге
 
 public class Book {
 
@@ -79,13 +74,6 @@ public class Book {
         return inTheBookRepository;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
     public void setNumberOfPage(int numberOfPage) {
         this.numberOfPage = numberOfPage;

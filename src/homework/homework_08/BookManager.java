@@ -8,14 +8,20 @@ package homework.homework_08;
 
 public class BookManager {
 
+        // создает новую книгу только с автором и названием
+
         public Book createBook(String author, String title){
+
             return new Book(author, title);
         }
 
+        // создает новую книгу с использованием всех параметров
 
         public Book createBookWithAllInformation(String author, String title, int numberOfPage, int numberInTheCatalogue, boolean inTheBookRepository){
             return new Book(author, title, numberOfPage, numberInTheCatalogue, inTheBookRepository);
         }
+
+        // редактирует книгу добавляя: номер каталога, количество страниц и где книга находится
 
         public void editBook(Book book, int numberOfPage, int numberInTheCatalogue, boolean inTheBookRepository){
             book.setNumberOfPage(numberOfPage);
@@ -24,6 +30,7 @@ public class BookManager {
 
         }
 
+        // выводит подробно информацию о книге
 
         public void displayInformation(Book book){
             System.out.println("Author:" + book.getAuthor());

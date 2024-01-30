@@ -15,12 +15,12 @@ public class NewBook {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите количество страниц:");
-        int page33 = scanner.nextInt();
-        bookPartInformation.numberOfPage = page33;
+        int page = scanner.nextInt();
+        bookPartInformation.numberOfPage = page;
 
         System.out.println("Введите номер в каталоге:");
-        int number12 = scanner.nextInt();
-        bookPartInformation.numberInTheCatalogue = number12;
+        int number = scanner.nextInt();
+        bookPartInformation.numberInTheCatalogue = number;
 
         System.out.println("Книга в хранилище:");
         boolean inRepository = scanner.nextBoolean();
@@ -29,12 +29,5 @@ public class NewBook {
         bookPartInformation.displayInformation();
     }
 
-
-
-
-
-
-
-
-    }
+}
 
