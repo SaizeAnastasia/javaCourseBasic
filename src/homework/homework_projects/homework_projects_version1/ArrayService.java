@@ -1,4 +1,4 @@
-package homework_projects.homework_projects_version1;
+package homework.homework_projects.homework_projects_version1;
 
 //Задание: Создайте класс ArrayService, содержащий метод sort,
 //который принимает массив целых чисел и сортирует его по убыванию.

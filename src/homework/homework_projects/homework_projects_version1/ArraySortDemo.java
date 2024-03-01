@@ -1,4 +1,4 @@
-package homework_projects.homework_projects_version1;
+package homework.homework_projects.homework_projects_version1;
 
 public class ArraySortDemo {
     public static void main(String[] args) {

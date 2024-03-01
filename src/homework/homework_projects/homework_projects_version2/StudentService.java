@@ -1,4 +1,4 @@
-package homework_projects.homework_projects_version2;
+package homework.homework_projects.homework_projects_version2;
 
 import java.util.Arrays;
 import java.util.Comparator;
